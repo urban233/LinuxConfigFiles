@@ -1,0 +1,26 @@
+[global_config]
+  title_transmit_bg_color = "#c64600"
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+[keybindings]
+  split_horiz = <Primary><Alt>h
+  split_vert = <Primary><Alt>v
+[profiles]
+  [[default]]
+    background_color = "#0a1124"
+    background_darkness = 0.85
+    background_type = transparent
+    cursor_color = "#5b6ea7"
+    foreground_color = "#a6896b"
+    palette = "#0a1124:#f35645:#eb3247:#bc4349:#f35645:#f6a73b:#fad32f:#eec49a:#0a1124:#f35645:#eb3247:#bc4349:#f35645:#f6a73b:#fad32f:#eec49a"
+    use_custom_command = True
+    custom_command = fish
+    use_theme_colors = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
