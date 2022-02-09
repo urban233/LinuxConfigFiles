@@ -1,0 +1,3 @@
+/home/$USER
+
+Caution: the .bashrc and .bashprofile are both hidden files! 
